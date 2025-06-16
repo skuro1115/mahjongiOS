@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28D0AB25F73F7F4EE9ECF12B /* Pods_HaipaiSaiten_HaipaiSaitenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D80FC5C7C9CDDBCA0FA841 /* Pods_HaipaiSaiten_HaipaiSaitenUITests.framework */; };
+		D9AA8377097314C582E075D5 /* Pods_HaipaiSaitenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4E9C5FFE47B9E4AB986804 /* Pods_HaipaiSaitenTests.framework */; };
+		E909CA169875A436555EAAF7 /* Pods_HaipaiSaiten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D912EB6B75573A0A5669C6B /* Pods_HaipaiSaiten.framework */; };
+		FC313D1B285FAC5F0034AE56 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC313D1A285FAC5F0034AE56 /* ImageName.swift */; };
+		FC313D1D286E29D50034AE56 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC313D1C286E29D50034AE56 /* Models.swift */; };
+		FC3F4A7A27EF15EC00F765BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4A7927EF15EC00F765BA /* AppDelegate.swift */; };
+		FC3F4A7C27EF15EC00F765BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4A7B27EF15EC00F765BA /* SceneDelegate.swift */; };
+		FC3F4A8127EF15EC00F765BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4A7F27EF15EC00F765BA /* Main.storyboard */; };
+		FC3F4A8427EF15EC00F765BA /* HaipaiSaiten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4A8227EF15EC00F765BA /* HaipaiSaiten.xcdatamodeld */; };
+		FC3F4A8927EF15EE00F765BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4A8727EF15EE00F765BA /* LaunchScreen.storyboard */; };
+		FC3F4A9427EF15EE00F765BA /* HaipaiSaitenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4A9327EF15EE00F765BA /* HaipaiSaitenTests.swift */; };
+		FC3F4A9E27EF15EE00F765BA /* HaipaiSaitenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4A9D27EF15EE00F765BA /* HaipaiSaitenUITests.swift */; };
+		FC3F4AA027EF15EE00F765BA /* HaipaiSaitenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4A9F27EF15EE00F765BA /* HaipaiSaitenUITestsLaunchTests.swift */; };
+		FC3F4AAE27EF163000F765BA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4AAD27EF163000F765BA /* MainVC.swift */; };
+		FC3F4AB027EF164F00F765BA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4AAF27EF164F00F765BA /* Extension.swift */; };
+		FC3F4AB227EF165900F765BA /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4AB127EF165900F765BA /* ResultVC.swift */; };
+		FC3F4AB427EF165F00F765BA /* SelectDorahyoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4AB327EF165F00F765BA /* SelectDorahyoVC.swift */; };
+		FC3F4ABC27EF178F00F765BA /* sample.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4ABB27EF178F00F765BA /* sample.mlmodel */; };
+		FC3F4ABE27EF179500F765BA /* tensu.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4ABD27EF179500F765BA /* tensu.mlmodel */; };
+		FC3F4AC027EF221A00F765BA /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4ABF27EF221A00F765BA /* Result.storyboard */; };
+		FC3F4AC227EF222300F765BA /* SelectDorahyo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4AC127EF222300F765BA /* SelectDorahyo.storyboard */; };
+		FC3F4AC427EF235A00F765BA /* Shanten.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4AC327EF235A00F765BA /* Shanten.swift */; };
+		FC3F4AC627EF253500F765BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4AC527EF253500F765BA /* Assets.xcassets */; };
+		FC5565D827F0AD5900380C84 /* sample2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FC5565D727F0AD5900380C84 /* sample2.mlmodel */; };
+		FC8F5B13289114CF00FDDE5F /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F5B12289114CF00FDDE5F /* Help.swift */; };
+		FC8F5B15289114E100FDDE5F /* Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F5B14289114E100FDDE5F /* Help.storyboard */; };
+		FCA9FEA7289E4F270004D900 /* chitoitsu.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEA6289E4F270004D900 /* chitoitsu.mlmodel */; };
+		FCA9FEA9289E68A60004D900 /* richi.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEA8289E68A60004D900 /* richi.mlmodel */; };
+		FCA9FEAB289E68AC0004D900 /* pinfu.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEAA289E68AC0004D900 /* pinfu.mlmodel */; };
+		FCA9FEAD289E78860004D900 /* tanyao.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEAC289E78860004D900 /* tanyao.mlmodel */; };
+		FCA9FEAF289E788D0004D900 /* ipeko.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEAE289E788D0004D900 /* ipeko.mlmodel */; };
+		FCA9FEB1289E82B50004D900 /* honitsu.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEB0289E82B50004D900 /* honitsu.mlmodel */; };
+		FCA9FEB3289EEF920004D900 /* kokushi.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEB2289EEF920004D900 /* kokushi.mlmodel */; };
+		FCA9FEB5289EEF9A0004D900 /* bakaze.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEB4289EEF9A0004D900 /* bakaze.mlmodel */; };
+		FCA9FEB7289EEFA30004D900 /* jikaze.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEB6289EEFA30004D900 /* jikaze.mlmodel */; };
+		FCA9FEB9289EF3590004D900 /* bakaze18.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEB8289EF3590004D900 /* bakaze18.mlmodel */; };
+		FCA9FEBB28A02AB10004D900 /* chinitsu.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEBA28A02AB10004D900 /* chinitsu.mlmodel */; };
+		FCA9FEBD28A02AB60004D900 /* haku.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEBC28A02AB60004D900 /* haku.mlmodel */; };
+		FCA9FEC428A02AC20004D900 /* sanshoku.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEBE28A02AC10004D900 /* sanshoku.mlmodel */; };
+		FCA9FEC528A02AC20004D900 /* toitoi.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEBF28A02AC20004D900 /* toitoi.mlmodel */; };
+		FCA9FEC628A02AC20004D900 /* chun.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEC028A02AC20004D900 /* chun.mlmodel */; };
+		FCA9FEC728A02AC20004D900 /* chanta.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEC128A02AC20004D900 /* chanta.mlmodel */; };
+		FCA9FEC828A02AC20004D900 /* hatsu.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEC228A02AC20004D900 /* hatsu.mlmodel */; };
+		FCA9FEC928A02AC20004D900 /* ittsu.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEC328A02AC20004D900 /* ittsu.mlmodel */; };
+		FCA9FECE28A0ECA70004D900 /* junchan.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FECA28A0ECA60004D900 /* junchan.mlmodel */; };
+		FCA9FECF28A0ECA70004D900 /* honroto.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FECB28A0ECA60004D900 /* honroto.mlmodel */; };
+		FCA9FED028A0ECA70004D900 /* sananko.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FECC28A0ECA60004D900 /* sananko.mlmodel */; };
+		FCA9FED128A0ECA70004D900 /* shosangen.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FECD28A0ECA60004D900 /* shosangen.mlmodel */; };
+		FCA9FED328A11FCD0004D900 /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA9FED228A11FCD0004D900 /* Tabbar.storyboard */; };
+		FCA9FED528A11FDD0004D900 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FED428A11FDD0004D900 /* Tabbar.swift */; };
+		FCA9FED728A120980004D900 /* ImageInput.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA9FED628A120980004D900 /* ImageInput.storyboard */; };
+		FCA9FED928A121E90004D900 /* ImageInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FED828A121E90004D900 /* ImageInput.swift */; };
+		FCA9FEDE28A147EA0004D900 /* daisangen.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEDB28A147E90004D900 /* daisangen.mlmodel */; };
+		FCA9FEDF28A147EA0004D900 /* suanko.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEDC28A147EA0004D900 /* suanko.mlmodel */; };
+		FCA9FEE028A147EA0004D900 /* ryanpeko.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FEDD28A147EA0004D900 /* ryanpeko.mlmodel */; };
+		FCA9FF2028A16C350004D900 /* LoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA9FF1F28A16C350004D900 /* LoadView.swift */; };
+		FCA9FF2228A16D070004D900 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA9FF2128A16D070004D900 /* LoadingView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC3F4A9027EF15EE00F765BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3F4A6E27EF15EC00F765BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3F4A7527EF15EC00F765BA;
+			remoteInfo = HaipaiSaiten;
+		};
+		FC3F4A9A27EF15EE00F765BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3F4A6E27EF15EC00F765BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3F4A7527EF15EC00F765BA;
+			remoteInfo = HaipaiSaiten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41065D11C81809C605B58AA8 /* Pods-HaipaiSaiten-HaipaiSaitenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaipaiSaiten-HaipaiSaitenUITests.debug.xcconfig"; path = "Target Support Files/Pods-HaipaiSaiten-HaipaiSaitenUITests/Pods-HaipaiSaiten-HaipaiSaitenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D912EB6B75573A0A5669C6B /* Pods_HaipaiSaiten.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaipaiSaiten.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4FCA2607CE1E58E1822636 /* Pods-HaipaiSaitenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaipaiSaitenTests.release.xcconfig"; path = "Target Support Files/Pods-HaipaiSaitenTests/Pods-HaipaiSaitenTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E2A8059D616057F00A22223 /* Pods-HaipaiSaiten-HaipaiSaitenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaipaiSaiten-HaipaiSaitenUITests.release.xcconfig"; path = "Target Support Files/Pods-HaipaiSaiten-HaipaiSaitenUITests/Pods-HaipaiSaiten-HaipaiSaitenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97D670DCBD7BA02708C213D5 /* Pods-HaipaiSaiten.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaipaiSaiten.release.xcconfig"; path = "Target Support Files/Pods-HaipaiSaiten/Pods-HaipaiSaiten.release.xcconfig"; sourceTree = "<group>"; };
+		AE4E9C5FFE47B9E4AB986804 /* Pods_HaipaiSaitenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaipaiSaitenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F4F0FA5BC2F95DF28D2A9A /* Pods-HaipaiSaiten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaipaiSaiten.debug.xcconfig"; path = "Target Support Files/Pods-HaipaiSaiten/Pods-HaipaiSaiten.debug.xcconfig"; sourceTree = "<group>"; };
+		C7050FE68C40F7C73805F6EA /* Pods-HaipaiSaitenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaipaiSaitenTests.debug.xcconfig"; path = "Target Support Files/Pods-HaipaiSaitenTests/Pods-HaipaiSaitenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9D80FC5C7C9CDDBCA0FA841 /* Pods_HaipaiSaiten_HaipaiSaitenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaipaiSaiten_HaipaiSaitenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC313D1A285FAC5F0034AE56 /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		FC313D1C286E29D50034AE56 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FC3F4A7627EF15EC00F765BA /* HaipaiSaiten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaipaiSaiten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3F4A7927EF15EC00F765BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC3F4A7B27EF15EC00F765BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC3F4A8027EF15EC00F765BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC3F4A8327EF15EC00F765BA /* HaipaiSaiten.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HaipaiSaiten.xcdatamodel; sourceTree = "<group>"; };
+		FC3F4A8827EF15EE00F765BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC3F4A8A27EF15EE00F765BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3F4A8F27EF15EE00F765BA /* HaipaiSaitenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaipaiSaitenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3F4A9327EF15EE00F765BA /* HaipaiSaitenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaipaiSaitenTests.swift; sourceTree = "<group>"; };
+		FC3F4A9927EF15EE00F765BA /* HaipaiSaitenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaipaiSaitenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3F4A9D27EF15EE00F765BA /* HaipaiSaitenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaipaiSaitenUITests.swift; sourceTree = "<group>"; };
+		FC3F4A9F27EF15EE00F765BA /* HaipaiSaitenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaipaiSaitenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC3F4AAD27EF163000F765BA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		FC3F4AAF27EF164F00F765BA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FC3F4AB127EF165900F765BA /* ResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		FC3F4AB327EF165F00F765BA /* SelectDorahyoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDorahyoVC.swift; sourceTree = "<group>"; };
+		FC3F4ABB27EF178F00F765BA /* sample.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sample.mlmodel; sourceTree = "<group>"; };
+		FC3F4ABD27EF179500F765BA /* tensu.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = tensu.mlmodel; sourceTree = "<group>"; };
+		FC3F4ABF27EF221A00F765BA /* Result.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Result.storyboard; sourceTree = "<group>"; };
+		FC3F4AC127EF222300F765BA /* SelectDorahyo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelectDorahyo.storyboard; sourceTree = "<group>"; };
+		FC3F4AC327EF235A00F765BA /* Shanten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shanten.swift; sourceTree = "<group>"; };
+		FC3F4AC527EF253500F765BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC5565D727F0AD5900380C84 /* sample2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sample2.mlmodel; sourceTree = "<group>"; };
+		FC8F5B12289114CF00FDDE5F /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		FC8F5B14289114E100FDDE5F /* Help.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Help.storyboard; sourceTree = "<group>"; };
+		FCA9FEA6289E4F270004D900 /* chitoitsu.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = chitoitsu.mlmodel; sourceTree = "<group>"; };
+		FCA9FEA8289E68A60004D900 /* richi.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = richi.mlmodel; sourceTree = "<group>"; };
+		FCA9FEAA289E68AC0004D900 /* pinfu.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = pinfu.mlmodel; sourceTree = "<group>"; };
+		FCA9FEAC289E78860004D900 /* tanyao.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = tanyao.mlmodel; sourceTree = "<group>"; };
+		FCA9FEAE289E788D0004D900 /* ipeko.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ipeko.mlmodel; sourceTree = "<group>"; };
+		FCA9FEB0289E82B50004D900 /* honitsu.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = honitsu.mlmodel; sourceTree = "<group>"; };
+		FCA9FEB2289EEF920004D900 /* kokushi.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = kokushi.mlmodel; sourceTree = "<group>"; };
+		FCA9FEB4289EEF9A0004D900 /* bakaze.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = bakaze.mlmodel; sourceTree = "<group>"; };
+		FCA9FEB6289EEFA30004D900 /* jikaze.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = jikaze.mlmodel; sourceTree = "<group>"; };
+		FCA9FEB8289EF3590004D900 /* bakaze18.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = bakaze18.mlmodel; sourceTree = "<group>"; };
+		FCA9FEBA28A02AB10004D900 /* chinitsu.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = chinitsu.mlmodel; sourceTree = "<group>"; };
+		FCA9FEBC28A02AB60004D900 /* haku.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = haku.mlmodel; sourceTree = "<group>"; };
+		FCA9FEBE28A02AC10004D900 /* sanshoku.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sanshoku.mlmodel; sourceTree = "<group>"; };
+		FCA9FEBF28A02AC20004D900 /* toitoi.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = toitoi.mlmodel; sourceTree = "<group>"; };
+		FCA9FEC028A02AC20004D900 /* chun.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = chun.mlmodel; sourceTree = "<group>"; };
+		FCA9FEC128A02AC20004D900 /* chanta.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = chanta.mlmodel; sourceTree = "<group>"; };
+		FCA9FEC228A02AC20004D900 /* hatsu.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = hatsu.mlmodel; sourceTree = "<group>"; };
+		FCA9FEC328A02AC20004D900 /* ittsu.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ittsu.mlmodel; sourceTree = "<group>"; };
+		FCA9FECA28A0ECA60004D900 /* junchan.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = junchan.mlmodel; sourceTree = "<group>"; };
+		FCA9FECB28A0ECA60004D900 /* honroto.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = honroto.mlmodel; sourceTree = "<group>"; };
+		FCA9FECC28A0ECA60004D900 /* sananko.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sananko.mlmodel; sourceTree = "<group>"; };
+		FCA9FECD28A0ECA60004D900 /* shosangen.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = shosangen.mlmodel; sourceTree = "<group>"; };
+		FCA9FED228A11FCD0004D900 /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		FCA9FED428A11FDD0004D900 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		FCA9FED628A120980004D900 /* ImageInput.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageInput.storyboard; sourceTree = "<group>"; };
+		FCA9FED828A121E90004D900 /* ImageInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInput.swift; sourceTree = "<group>"; };
+		FCA9FEDB28A147E90004D900 /* daisangen.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = daisangen.mlmodel; sourceTree = "<group>"; };
+		FCA9FEDC28A147EA0004D900 /* suanko.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = suanko.mlmodel; sourceTree = "<group>"; };
+		FCA9FEDD28A147EA0004D900 /* ryanpeko.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ryanpeko.mlmodel; sourceTree = "<group>"; };
+		FCA9FF1F28A16C350004D900 /* LoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadView.swift; sourceTree = "<group>"; };
+		FCA9FF2128A16D070004D900 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3F4A7327EF15EC00F765BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E909CA169875A436555EAAF7 /* Pods_HaipaiSaiten.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3F4A8C27EF15EE00F765BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AA8377097314C582E075D5 /* Pods_HaipaiSaitenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3F4A9627EF15EE00F765BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D0AB25F73F7F4EE9ECF12B /* Pods_HaipaiSaiten_HaipaiSaitenUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A543932E2523658513D210B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D912EB6B75573A0A5669C6B /* Pods_HaipaiSaiten.framework */,
+				C9D80FC5C7C9CDDBCA0FA841 /* Pods_HaipaiSaiten_HaipaiSaitenUITests.framework */,
+				AE4E9C5FFE47B9E4AB986804 /* Pods_HaipaiSaitenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD9AC0FE83E13C6072E5F05A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5F4F0FA5BC2F95DF28D2A9A /* Pods-HaipaiSaiten.debug.xcconfig */,
+				97D670DCBD7BA02708C213D5 /* Pods-HaipaiSaiten.release.xcconfig */,
+				41065D11C81809C605B58AA8 /* Pods-HaipaiSaiten-HaipaiSaitenUITests.debug.xcconfig */,
+				8E2A8059D616057F00A22223 /* Pods-HaipaiSaiten-HaipaiSaitenUITests.release.xcconfig */,
+				C7050FE68C40F7C73805F6EA /* Pods-HaipaiSaitenTests.debug.xcconfig */,
+				7B4FCA2607CE1E58E1822636 /* Pods-HaipaiSaitenTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC3F4A6D27EF15EC00F765BA = {
+			isa = PBXGroup;
+			children = (
+				FC3F4A7827EF15EC00F765BA /* HaipaiSaiten */,
+				FC3F4A9227EF15EE00F765BA /* HaipaiSaitenTests */,
+				FC3F4A9C27EF15EE00F765BA /* HaipaiSaitenUITests */,
+				FC3F4A7727EF15EC00F765BA /* Products */,
+				BD9AC0FE83E13C6072E5F05A /* Pods */,
+				A543932E2523658513D210B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3F4A7727EF15EC00F765BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F4A7627EF15EC00F765BA /* HaipaiSaiten.app */,
+				FC3F4A8F27EF15EE00F765BA /* HaipaiSaitenTests.xctest */,
+				FC3F4A9927EF15EE00F765BA /* HaipaiSaitenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3F4A7827EF15EC00F765BA /* HaipaiSaiten */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F4A8727EF15EE00F765BA /* LaunchScreen.storyboard */,
+				FCA9FEA5289E4F110004D900 /* MLModels */,
+				FCA9FEA4289E4EF60004D900 /* StoryBoard */,
+				FCA9FEDA28A122460004D900 /* ViewController */,
+				FC3F4AAC27EF161800F765BA /* Swift */,
+				FC3F4A7927EF15EC00F765BA /* AppDelegate.swift */,
+				FC3F4A7B27EF15EC00F765BA /* SceneDelegate.swift */,
+				FC3F4AC527EF253500F765BA /* Assets.xcassets */,
+				FC3F4A8A27EF15EE00F765BA /* Info.plist */,
+				FC3F4A8227EF15EC00F765BA /* HaipaiSaiten.xcdatamodeld */,
+				FCA9FF2128A16D070004D900 /* LoadingView.xib */,
+			);
+			path = HaipaiSaiten;
+			sourceTree = "<group>";
+		};
+		FC3F4A9227EF15EE00F765BA /* HaipaiSaitenTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F4A9327EF15EE00F765BA /* HaipaiSaitenTests.swift */,
+			);
+			path = HaipaiSaitenTests;
+			sourceTree = "<group>";
+		};
+		FC3F4A9C27EF15EE00F765BA /* HaipaiSaitenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F4A9D27EF15EE00F765BA /* HaipaiSaitenUITests.swift */,
+				FC3F4A9F27EF15EE00F765BA /* HaipaiSaitenUITestsLaunchTests.swift */,
+			);
+			path = HaipaiSaitenUITests;
+			sourceTree = "<group>";
+		};
+		FC3F4AAC27EF161800F765BA /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				FC313D1A285FAC5F0034AE56 /* ImageName.swift */,
+				FC3F4AC327EF235A00F765BA /* Shanten.swift */,
+				FC3F4AAF27EF164F00F765BA /* Extension.swift */,
+				FC313D1C286E29D50034AE56 /* Models.swift */,
+				FCA9FF1F28A16C350004D900 /* LoadView.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		FCA9FEA4289E4EF60004D900 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F4A7F27EF15EC00F765BA /* Main.storyboard */,
+				FC3F4ABF27EF221A00F765BA /* Result.storyboard */,
+				FC8F5B14289114E100FDDE5F /* Help.storyboard */,
+				FCA9FED228A11FCD0004D900 /* Tabbar.storyboard */,
+				FCA9FED628A120980004D900 /* ImageInput.storyboard */,
+				FC3F4AC127EF222300F765BA /* SelectDorahyo.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		FCA9FEA5289E4F110004D900 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				FCA9FEDB28A147E90004D900 /* daisangen.mlmodel */,
+				FCA9FEDD28A147EA0004D900 /* ryanpeko.mlmodel */,
+				FCA9FEDC28A147EA0004D900 /* suanko.mlmodel */,
+				FC5565D727F0AD5900380C84 /* sample2.mlmodel */,
+				FC3F4ABB27EF178F00F765BA /* sample.mlmodel */,
+				FCA9FEA6289E4F270004D900 /* chitoitsu.mlmodel */,
+				FCA9FEAA289E68AC0004D900 /* pinfu.mlmodel */,
+				FCA9FEAC289E78860004D900 /* tanyao.mlmodel */,
+				FCA9FEB4289EEF9A0004D900 /* bakaze.mlmodel */,
+				FCA9FEAE289E788D0004D900 /* ipeko.mlmodel */,
+				FCA9FEB6289EEFA30004D900 /* jikaze.mlmodel */,
+				FC3F4ABD27EF179500F765BA /* tensu.mlmodel */,
+				FCA9FEB2289EEF920004D900 /* kokushi.mlmodel */,
+				FCA9FEB8289EF3590004D900 /* bakaze18.mlmodel */,
+				FCA9FEC128A02AC20004D900 /* chanta.mlmodel */,
+				FCA9FECB28A0ECA60004D900 /* honroto.mlmodel */,
+				FCA9FECA28A0ECA60004D900 /* junchan.mlmodel */,
+				FCA9FECC28A0ECA60004D900 /* sananko.mlmodel */,
+				FCA9FECD28A0ECA60004D900 /* shosangen.mlmodel */,
+				FCA9FEC028A02AC20004D900 /* chun.mlmodel */,
+				FCA9FEC228A02AC20004D900 /* hatsu.mlmodel */,
+				FCA9FEC328A02AC20004D900 /* ittsu.mlmodel */,
+				FCA9FEBE28A02AC10004D900 /* sanshoku.mlmodel */,
+				FCA9FEBF28A02AC20004D900 /* toitoi.mlmodel */,
+				FCA9FEB0289E82B50004D900 /* honitsu.mlmodel */,
+				FCA9FEBC28A02AB60004D900 /* haku.mlmodel */,
+				FCA9FEBA28A02AB10004D900 /* chinitsu.mlmodel */,
+				FCA9FEA8289E68A60004D900 /* richi.mlmodel */,
+			);
+			path = MLModels;
+			sourceTree = "<group>";
+		};
+		FCA9FEDA28A122460004D900 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F4AAD27EF163000F765BA /* MainVC.swift */,
+				FC3F4AB127EF165900F765BA /* ResultVC.swift */,
+				FC8F5B12289114CF00FDDE5F /* Help.swift */,
+				FCA9FED428A11FDD0004D900 /* Tabbar.swift */,
+				FCA9FED828A121E90004D900 /* ImageInput.swift */,
+				FC3F4AB327EF165F00F765BA /* SelectDorahyoVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3F4A7527EF15EC00F765BA /* HaipaiSaiten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3F4AA327EF15EE00F765BA /* Build configuration list for PBXNativeTarget "HaipaiSaiten" */;
+			buildPhases = (
+				6D0DF27D747CBE251F40ACE4 /* [CP] Check Pods Manifest.lock */,
+				FC3F4A7227EF15EC00F765BA /* Sources */,
+				FC3F4A7327EF15EC00F765BA /* Frameworks */,
+				FC3F4A7427EF15EC00F765BA /* Resources */,
+				0FB31A4AAEE69E1F67F4AA83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaipaiSaiten;
+			productName = HaipaiSaiten;
+			productReference = FC3F4A7627EF15EC00F765BA /* HaipaiSaiten.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC3F4A8E27EF15EE00F765BA /* HaipaiSaitenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3F4AA627EF15EE00F765BA /* Build configuration list for PBXNativeTarget "HaipaiSaitenTests" */;
+			buildPhases = (
+				1CE41C6AB15516D2184071E3 /* [CP] Check Pods Manifest.lock */,
+				FC3F4A8B27EF15EE00F765BA /* Sources */,
+				FC3F4A8C27EF15EE00F765BA /* Frameworks */,
+				FC3F4A8D27EF15EE00F765BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3F4A9127EF15EE00F765BA /* PBXTargetDependency */,
+			);
+			name = HaipaiSaitenTests;
+			productName = HaipaiSaitenTests;
+			productReference = FC3F4A8F27EF15EE00F765BA /* HaipaiSaitenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC3F4A9827EF15EE00F765BA /* HaipaiSaitenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3F4AA927EF15EE00F765BA /* Build configuration list for PBXNativeTarget "HaipaiSaitenUITests" */;
+			buildPhases = (
+				E38D38B46B2823926CFE93A8 /* [CP] Check Pods Manifest.lock */,
+				FC3F4A9527EF15EE00F765BA /* Sources */,
+				FC3F4A9627EF15EE00F765BA /* Frameworks */,
+				FC3F4A9727EF15EE00F765BA /* Resources */,
+				49CCF17DD899FE44759469E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3F4A9B27EF15EE00F765BA /* PBXTargetDependency */,
+			);
+			name = HaipaiSaitenUITests;
+			productName = HaipaiSaitenUITests;
+			productReference = FC3F4A9927EF15EE00F765BA /* HaipaiSaitenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3F4A6E27EF15EC00F765BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FC3F4A7527EF15EC00F765BA = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					FC3F4A8E27EF15EE00F765BA = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = FC3F4A7527EF15EC00F765BA;
+					};
+					FC3F4A9827EF15EE00F765BA = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = FC3F4A7527EF15EC00F765BA;
+					};
+				};
+			};
+			buildConfigurationList = FC3F4A7127EF15EC00F765BA /* Build configuration list for PBXProject "HaipaiSaiten" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC3F4A6D27EF15EC00F765BA;
+			productRefGroup = FC3F4A7727EF15EC00F765BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3F4A7527EF15EC00F765BA /* HaipaiSaiten */,
+				FC3F4A8E27EF15EE00F765BA /* HaipaiSaitenTests */,
+				FC3F4A9827EF15EE00F765BA /* HaipaiSaitenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC3F4A7427EF15EC00F765BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3F4A8927EF15EE00F765BA /* LaunchScreen.storyboard in Resources */,
+				FC8F5B15289114E100FDDE5F /* Help.storyboard in Resources */,
+				FC3F4A8127EF15EC00F765BA /* Main.storyboard in Resources */,
+				FC3F4AC227EF222300F765BA /* SelectDorahyo.storyboard in Resources */,
+				FCA9FF2228A16D070004D900 /* LoadingView.xib in Resources */,
+				FC3F4AC027EF221A00F765BA /* Result.storyboard in Resources */,
+				FCA9FED328A11FCD0004D900 /* Tabbar.storyboard in Resources */,
+				FC3F4AC627EF253500F765BA /* Assets.xcassets in Resources */,
+				FCA9FED728A120980004D900 /* ImageInput.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3F4A8D27EF15EE00F765BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3F4A9727EF15EE00F765BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FB31A4AAEE69E1F67F4AA83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HaipaiSaiten/Pods-HaipaiSaiten-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HaipaiSaiten/Pods-HaipaiSaiten-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HaipaiSaiten/Pods-HaipaiSaiten-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CE41C6AB15516D2184071E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HaipaiSaitenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49CCF17DD899FE44759469E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HaipaiSaiten-HaipaiSaitenUITests/Pods-HaipaiSaiten-HaipaiSaitenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HaipaiSaiten-HaipaiSaitenUITests/Pods-HaipaiSaiten-HaipaiSaitenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HaipaiSaiten-HaipaiSaitenUITests/Pods-HaipaiSaiten-HaipaiSaitenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D0DF27D747CBE251F40ACE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HaipaiSaiten-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38D38B46B2823926CFE93A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HaipaiSaiten-HaipaiSaitenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3F4A7227EF15EC00F765BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8F5B13289114CF00FDDE5F /* Help.swift in Sources */,
+				FCA9FEA7289E4F270004D900 /* chitoitsu.mlmodel in Sources */,
+				FCA9FEAD289E78860004D900 /* tanyao.mlmodel in Sources */,
+				FCA9FEBD28A02AB60004D900 /* haku.mlmodel in Sources */,
+				FC3F4ABC27EF178F00F765BA /* sample.mlmodel in Sources */,
+				FCA9FED528A11FDD0004D900 /* Tabbar.swift in Sources */,
+				FCA9FED028A0ECA70004D900 /* sananko.mlmodel in Sources */,
+				FC313D1D286E29D50034AE56 /* Models.swift in Sources */,
+				FCA9FED928A121E90004D900 /* ImageInput.swift in Sources */,
+				FCA9FEC528A02AC20004D900 /* toitoi.mlmodel in Sources */,
+				FCA9FEA9289E68A60004D900 /* richi.mlmodel in Sources */,
+				FC3F4AB027EF164F00F765BA /* Extension.swift in Sources */,
+				FCA9FF2028A16C350004D900 /* LoadView.swift in Sources */,
+				FC3F4AB427EF165F00F765BA /* SelectDorahyoVC.swift in Sources */,
+				FCA9FECE28A0ECA70004D900 /* junchan.mlmodel in Sources */,
+				FCA9FEAF289E788D0004D900 /* ipeko.mlmodel in Sources */,
+				FC3F4AB227EF165900F765BA /* ResultVC.swift in Sources */,
+				FC3F4A8427EF15EC00F765BA /* HaipaiSaiten.xcdatamodeld in Sources */,
+				FC5565D827F0AD5900380C84 /* sample2.mlmodel in Sources */,
+				FCA9FEB7289EEFA30004D900 /* jikaze.mlmodel in Sources */,
+				FCA9FEC828A02AC20004D900 /* hatsu.mlmodel in Sources */,
+				FC313D1B285FAC5F0034AE56 /* ImageName.swift in Sources */,
+				FCA9FEC628A02AC20004D900 /* chun.mlmodel in Sources */,
+				FCA9FEAB289E68AC0004D900 /* pinfu.mlmodel in Sources */,
+				FCA9FEB9289EF3590004D900 /* bakaze18.mlmodel in Sources */,
+				FC3F4AC427EF235A00F765BA /* Shanten.swift in Sources */,
+				FC3F4AAE27EF163000F765BA /* MainVC.swift in Sources */,
+				FC3F4A7A27EF15EC00F765BA /* AppDelegate.swift in Sources */,
+				FCA9FECF28A0ECA70004D900 /* honroto.mlmodel in Sources */,
+				FCA9FEDE28A147EA0004D900 /* daisangen.mlmodel in Sources */,
+				FCA9FEC428A02AC20004D900 /* sanshoku.mlmodel in Sources */,
+				FCA9FEB1289E82B50004D900 /* honitsu.mlmodel in Sources */,
+				FC3F4A7C27EF15EC00F765BA /* SceneDelegate.swift in Sources */,
+				FC3F4ABE27EF179500F765BA /* tensu.mlmodel in Sources */,
+				FCA9FEB5289EEF9A0004D900 /* bakaze.mlmodel in Sources */,
+				FCA9FEE028A147EA0004D900 /* ryanpeko.mlmodel in Sources */,
+				FCA9FED128A0ECA70004D900 /* shosangen.mlmodel in Sources */,
+				FCA9FEC728A02AC20004D900 /* chanta.mlmodel in Sources */,
+				FCA9FEB3289EEF920004D900 /* kokushi.mlmodel in Sources */,
+				FCA9FEC928A02AC20004D900 /* ittsu.mlmodel in Sources */,
+				FCA9FEBB28A02AB10004D900 /* chinitsu.mlmodel in Sources */,
+				FCA9FEDF28A147EA0004D900 /* suanko.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3F4A8B27EF15EE00F765BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3F4A9427EF15EE00F765BA /* HaipaiSaitenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3F4A9527EF15EE00F765BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3F4AA027EF15EE00F765BA /* HaipaiSaitenUITestsLaunchTests.swift in Sources */,
+				FC3F4A9E27EF15EE00F765BA /* HaipaiSaitenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC3F4A9127EF15EE00F765BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3F4A7527EF15EC00F765BA /* HaipaiSaiten */;
+			targetProxy = FC3F4A9027EF15EE00F765BA /* PBXContainerItemProxy */;
+		};
+		FC3F4A9B27EF15EE00F765BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3F4A7527EF15EC00F765BA /* HaipaiSaiten */;
+			targetProxy = FC3F4A9A27EF15EE00F765BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC3F4A7F27EF15EC00F765BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3F4A8027EF15EC00F765BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC3F4A8727EF15EE00F765BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3F4A8827EF15EE00F765BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3F4AA127EF15EE00F765BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC3F4AA227EF15EE00F765BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3F4AA427EF15EE00F765BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F4F0FA5BC2F95DF28D2A9A /* Pods-HaipaiSaiten.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BANNER_ID = "";
+				"BANNER_ID[arch=*]" = "ca-app-pub-3940256099942544/2934735716";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 3958VZ4MU6;
+				GADApplicationIdentifier = "";
+				"GADApplicationIdentifier[arch=*]" = "ca-app-pub-3940256099942544~1458002511";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaipaiSaiten/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "配牌チェッカー";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuroda.HaipaiSaiten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RESULT_BANNER_ID1 = "";
+				"RESULT_BANNER_ID1[arch=*]" = "ca-app-pub-3940256099942544/2934735716";
+				RESULT_BANNER_ID2 = "";
+				"RESULT_BANNER_ID2[arch=*]" = "ca-app-pub-3940256099942544/2934735716";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC3F4AA527EF15EE00F765BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D670DCBD7BA02708C213D5 /* Pods-HaipaiSaiten.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BANNER_ID = "";
+				"BANNER_ID[arch=*]" = "ca-app-pub-1276869256875580/7668009280";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 3958VZ4MU6;
+				GADApplicationIdentifier = "";
+				"GADApplicationIdentifier[arch=*]" = "ca-app-pub-1276869256875580~5761969049";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaipaiSaiten/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "配牌チェッカー";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuroda.HaipaiSaiten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RESULT_BANNER_ID1 = "";
+				"RESULT_BANNER_ID1[arch=*]" = "ca-app-pub-1276869256875580/3205953857";
+				RESULT_BANNER_ID2 = "";
+				"RESULT_BANNER_ID2[arch=*]" = "ca-app-pub-1276869256875580/5427409623";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FC3F4AA727EF15EE00F765BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7050FE68C40F7C73805F6EA /* Pods-HaipaiSaitenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3958VZ4MU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuroda.HaipaiSaitenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaipaiSaiten.app/HaipaiSaiten";
+			};
+			name = Debug;
+		};
+		FC3F4AA827EF15EE00F765BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4FCA2607CE1E58E1822636 /* Pods-HaipaiSaitenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3958VZ4MU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuroda.HaipaiSaitenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaipaiSaiten.app/HaipaiSaiten";
+			};
+			name = Release;
+		};
+		FC3F4AAA27EF15EE00F765BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41065D11C81809C605B58AA8 /* Pods-HaipaiSaiten-HaipaiSaitenUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3958VZ4MU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuroda.HaipaiSaitenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaipaiSaiten;
+			};
+			name = Debug;
+		};
+		FC3F4AAB27EF15EE00F765BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2A8059D616057F00A22223 /* Pods-HaipaiSaiten-HaipaiSaitenUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3958VZ4MU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kuroda.HaipaiSaitenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaipaiSaiten;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3F4A7127EF15EC00F765BA /* Build configuration list for PBXProject "HaipaiSaiten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3F4AA127EF15EE00F765BA /* Debug */,
+				FC3F4AA227EF15EE00F765BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3F4AA327EF15EE00F765BA /* Build configuration list for PBXNativeTarget "HaipaiSaiten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3F4AA427EF15EE00F765BA /* Debug */,
+				FC3F4AA527EF15EE00F765BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3F4AA627EF15EE00F765BA /* Build configuration list for PBXNativeTarget "HaipaiSaitenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3F4AA727EF15EE00F765BA /* Debug */,
+				FC3F4AA827EF15EE00F765BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3F4AA927EF15EE00F765BA /* Build configuration list for PBXNativeTarget "HaipaiSaitenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3F4AAA27EF15EE00F765BA /* Debug */,
+				FC3F4AAB27EF15EE00F765BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC3F4A8227EF15EC00F765BA /* HaipaiSaiten.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC3F4A8327EF15EC00F765BA /* HaipaiSaiten.xcdatamodel */,
+			);
+			currentVersion = FC3F4A8327EF15EC00F765BA /* HaipaiSaiten.xcdatamodel */;
+			path = HaipaiSaiten.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC3F4A6E27EF15EC00F765BA /* Project object */;
+}

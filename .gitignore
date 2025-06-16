@@ -1,0 +1,57 @@
+HaipaiSaiten/MLModels.zip
+HaipaiSaiten.xcworkspace
+Pods/
+Podfile.lock
+DerivedData/
+build/
+HaipaiSaiten/MLModels.zip
+HaipaiSaiten/MLModels.zip
+
+
+# macOS システムファイル
+.DS_Store
+
+# Xcode ビルドファイル
+build/
+DerivedData/
+
+# Xcode 個人設定ファイル
+*.xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode ワークスペース（個人 or 自動生成される場合）
+*.xcworkspace
+
+# 一時ファイル
+*.moved-aside
+*.swp
+*.lock
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage（使っていれば）
+Carthage/
+
+# Swift Package Manager（使っていれば）
+Packages/
+.swiftpm/
+Package.resolved
+
+# Playground ファイルの履歴
+timeline.xctimeline
+playground.xcworkspace
+
+# テスト出力やログなど
+*.log
+
+# Firebase/Google SDKが生成するファイル
+GoogleService-Info.plist
+
+# Xcode Preview canvas
+*.preview-thumbnails
+
+# モデルや大容量ファイル（今回のケース）
+HaipaiSaiten/MLModels.zip

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Select DorahyoVC-->
+        <scene sceneID="jYQ-9Z-lCe">
+            <objects>
+                <viewController storyboardIdentifier="SelectDorahyoVC" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vc1-EK-IcH" customClass="SelectDorahyoVC" customModule="HaipaiSaiten" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZPi-XM-qNN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aYo-QH-3x6">
+                                <rect key="frame" x="10" y="226" width="394" height="300"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DzI-Mm-oGf">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40J-14-3H3">
+                                                <rect key="frame" x="0.0" y="0.0" width="44" height="75"/>
+                                                <state key="normal" image="p_ms1_1"/>
+                                                <connections>
+                                                    <action selector="m1:" destination="vc1-EK-IcH" eventType="touchUpInside" id="M4b-uU-EmF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyA-XR-qcw">
+                                                <rect key="frame" x="44" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" image="p_ms2_1"/>
+                                                <connections>
+                                                    <action selector="m2:" destination="vc1-EK-IcH" eventType="touchUpInside" id="hGC-lK-N32"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4N-X0-8GA">
+                                                <rect key="frame" x="87.5" y="0.0" width="44" height="75"/>
+                                                <state key="normal" image="p_ms3_1"/>
+                                                <connections>
+                                                    <action selector="m3:" destination="vc1-EK-IcH" eventType="touchUpInside" id="kQC-Rh-7Gm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7r2-1J-KkC">
+                                                <rect key="frame" x="131.5" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" image="p_ms4_1"/>
+                                                <connections>
+                                                    <action selector="m4:" destination="vc1-EK-IcH" eventType="touchUpInside" id="5p8-Sw-aVf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fe5-A4-rek">
+                                                <rect key="frame" x="175" y="0.0" width="44" height="75"/>
+                                                <state key="normal" image="p_ms5_1"/>
+                                                <connections>
+                                                    <action selector="m5:" destination="vc1-EK-IcH" eventType="touchUpInside" id="77g-yY-sdc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHf-PH-3g9">
+                                                <rect key="frame" x="219" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" image="p_ms6_1"/>
+                                                <connections>
+                                                    <action selector="m6:" destination="vc1-EK-IcH" eventType="touchUpInside" id="2b0-d6-UUc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xf9-n3-VpX">
+                                                <rect key="frame" x="262.5" y="0.0" width="44" height="75"/>
+                                                <state key="normal" image="p_ms7_1"/>
+                                                <connections>
+                                                    <action selector="m7:" destination="vc1-EK-IcH" eventType="touchUpInside" id="7Nl-0d-1s0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlO-eZ-vfx">
+                                                <rect key="frame" x="306.5" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" image="p_ms8_1"/>
+                                                <connections>
+                                                    <action selector="m8:" destination="vc1-EK-IcH" eventType="touchUpInside" id="fe4-WV-393"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ae-1Q-dYk">
+                                                <rect key="frame" x="350" y="0.0" width="44" height="75"/>
+                                                <state key="normal" image="p_ms9_1"/>
+                                                <connections>
+                                                    <action selector="m9:" destination="vc1-EK-IcH" eventType="touchUpInside" id="eW0-YR-plr"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VhS-Yz-aGj">
+                                        <rect key="frame" x="0.0" y="75" width="394" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="404-Yz-7O7">
+                                                <rect key="frame" x="0.0" y="0.0" width="44" height="75"/>
+                                                <state key="normal" image="p_ps1_1"/>
+                                                <connections>
+                                                    <action selector="p1:" destination="vc1-EK-IcH" eventType="touchUpInside" id="vIB-im-aDB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiF-WW-6wr">
+                                                <rect key="frame" x="44" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" image="p_ps2_1"/>
+                                                <connections>
+                                                    <action selector="p2:" destination="vc1-EK-IcH" eventType="touchUpInside" id="Dpr-cG-Rer"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8HV-sO-E4e">
+                                                <rect key="frame" x="87.5" y="0.0" width="44" height="75"/>
+                                                <state key="normal" title="Button" image="p_ps3_1"/>
+                                                <connections>
+                                                    <action selector="p3:" destination="vc1-EK-IcH" eventType="touchUpInside" id="WT4-tv-knV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVc-Tx-Qez">
+                                                <rect key="frame" x="131.5" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" title="Button" image="p_ps4_1"/>
+                                                <connections>
+                                                    <action selector="p4:" destination="vc1-EK-IcH" eventType="touchUpInside" id="Uk9-ty-MYI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MO-y3-cDi">
+                                                <rect key="frame" x="175" y="0.0" width="44" height="75"/>
+                                                <state key="normal" title="Button" image="p_ps5_1"/>
+                                                <connections>
+                                                    <action selector="p5:" destination="vc1-EK-IcH" eventType="touchUpInside" id="T3P-l4-jX9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FL-Of-gsl">
+                                                <rect key="frame" x="219" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" title="Button" image="p_ps6_1"/>
+                                                <connections>
+                                                    <action selector="p6:" destination="vc1-EK-IcH" eventType="touchUpInside" id="47d-6M-n8r"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Yv-ff-7RX">
+                                                <rect key="frame" x="262.5" y="0.0" width="44" height="75"/>
+                                                <state key="normal" title="Button" image="p_ps7_1"/>
+                                                <connections>
+                                                    <action selector="p7:" destination="vc1-EK-IcH" eventType="touchUpInside" id="24l-86-0KH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYu-Ue-tkh">
+                                                <rect key="frame" x="306.5" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" title="Button" image="p_ps8_1"/>
+                                                <connections>
+                                                    <action selector="p8:" destination="vc1-EK-IcH" eventType="touchUpInside" id="V3o-HX-xzE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLe-Z2-9G5">
+                                                <rect key="frame" x="350" y="0.0" width="44" height="75"/>
+                                                <state key="normal" title="Button" image="p_ps9_1"/>
+                                                <connections>
+                                                    <action selector="p9:" destination="vc1-EK-IcH" eventType="touchUpInside" id="MFY-dm-lfj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qx3-LQ-QAN">
+                                        <rect key="frame" x="0.0" y="150" width="394" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dO-mg-dwf">
+                                                <rect key="frame" x="0.0" y="0.0" width="44" height="75"/>
+                                                <state key="normal" title="Button" image="p_ss1_1"/>
+                                                <connections>
+                                                    <action selector="s1:" destination="vc1-EK-IcH" eventType="touchUpInside" id="Y89-l6-1EW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kaf-hR-w5d">
+                                                <rect key="frame" x="44" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" title="Button" image="p_ss2_1"/>
+                                                <connections>
+                                                    <action selector="s2:" destination="vc1-EK-IcH" eventType="touchUpInside" id="YpX-tP-Txd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gI-1q-HXz">
+                                                <rect key="frame" x="87.5" y="0.0" width="44" height="75"/>
+                                                <state key="normal" title="Button" image="p_ss3_1"/>
+                                                <connections>
+                                                    <action selector="s3:" destination="vc1-EK-IcH" eventType="touchUpInside" id="6DM-zD-VZH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAf-HK-Srw">
+                                                <rect key="frame" x="131.5" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" title="Button" image="p_ss4_1"/>
+                                                <connections>
+                                                    <action selector="s4:" destination="vc1-EK-IcH" eventType="touchUpInside" id="1Sg-7z-SFd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pc2-I0-AY1">
+                                                <rect key="frame" x="175" y="0.0" width="44" height="75"/>
+                                                <state key="normal" title="Button" image="p_ss5_1"/>
+                                                <connections>
+                                                    <action selector="s5:" destination="vc1-EK-IcH" eventType="touchUpInside" id="t14-Xe-DTS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPK-gl-mzk">
+                                                <rect key="frame" x="219" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" title="Button" image="p_ss6_1"/>
+                                                <connections>
+                                                    <action selector="s6:" destination="vc1-EK-IcH" eventType="touchUpInside" id="LA9-aP-ObN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGW-Wi-Sbg">
+                                                <rect key="frame" x="262.5" y="0.0" width="44" height="75"/>
+                                                <state key="normal" title="Button" image="p_ss7_1"/>
+                                                <connections>
+                                                    <action selector="s7:" destination="vc1-EK-IcH" eventType="touchUpInside" id="Ohc-D7-8jb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9F8-bQ-pu6">
+                                                <rect key="frame" x="306.5" y="0.0" width="43.5" height="75"/>
+                                                <state key="normal" title="Button" image="p_ss8_1"/>
+                                                <connections>
+                                                    <action selector="s8:" destination="vc1-EK-IcH" eventType="touchUpInside" id="VVH-Wx-8B4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKV-gf-yml">
+                                                <rect key="frame" x="350" y="0.0" width="44" height="75"/>
+                                                <state key="normal" title="Button" image="p_ss9_1"/>
+                                                <connections>
+                                                    <action selector="s9:" destination="vc1-EK-IcH" eventType="touchUpInside" id="HMF-8Z-Npl"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="OsL-lK-SbL">
+                                        <rect key="frame" x="0.0" y="225" width="394" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlk-Zb-H1d">
+                                                <rect key="frame" x="0.0" y="0.0" width="56.5" height="75"/>
+                                                <state key="normal" image="p_ji_e_1"/>
+                                                <connections>
+                                                    <action selector="e:" destination="vc1-EK-IcH" eventType="touchUpInside" id="IPT-Sv-3Pl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohs-38-FFp">
+                                                <rect key="frame" x="56.5" y="0.0" width="56" height="75"/>
+                                                <state key="normal" image="p_ji_s_1"/>
+                                                <connections>
+                                                    <action selector="s:" destination="vc1-EK-IcH" eventType="touchUpInside" id="Klo-kU-054"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJG-ZI-fHz">
+                                                <rect key="frame" x="112.5" y="0.0" width="56.5" height="75"/>
+                                                <state key="normal" image="p_ji_w_1"/>
+                                                <connections>
+                                                    <action selector="w:" destination="vc1-EK-IcH" eventType="touchUpInside" id="cRN-ws-PSe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMk-8o-2mX">
+                                                <rect key="frame" x="169" y="0.0" width="56" height="75"/>
+                                                <state key="normal" image="p_ji_n_1"/>
+                                                <connections>
+                                                    <action selector="n:" destination="vc1-EK-IcH" eventType="touchUpInside" id="KmU-pr-boG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xy6-fj-PoL">
+                                                <rect key="frame" x="225" y="0.0" width="56.5" height="75"/>
+                                                <state key="normal" image="p_no_1"/>
+                                                <connections>
+                                                    <action selector="wh:" destination="vc1-EK-IcH" eventType="touchUpInside" id="FPI-JU-a0L"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bC3-we-X1H">
+                                                <rect key="frame" x="281.5" y="0.0" width="56" height="75"/>
+                                                <state key="normal" image="p_ji_h_1"/>
+                                                <connections>
+                                                    <action selector="g:" destination="vc1-EK-IcH" eventType="touchUpInside" id="XAk-8x-CEW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMd-OH-f2i">
+                                                <rect key="frame" x="337.5" y="0.0" width="56.5" height="75"/>
+                                                <state key="normal" image="p_ji_c_1"/>
+                                                <connections>
+                                                    <action selector="r:" destination="vc1-EK-IcH" eventType="touchUpInside" id="cGj-Sk-fir"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="m6U-Gg-btU"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ドラ表示牌を選択してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTw-7E-Hxc">
+                                <rect key="frame" x="50" y="184" width="314" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ixU-Xb-Y3M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eDW-Pn-OU0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eDW-Pn-OU0" firstAttribute="trailing" secondItem="aYo-QH-3x6" secondAttribute="trailing" constant="10" id="7oB-7g-xQV"/>
+                            <constraint firstItem="eDW-Pn-OU0" firstAttribute="trailing" secondItem="pTw-7E-Hxc" secondAttribute="trailing" constant="50" id="CzU-yZ-tqQ"/>
+                            <constraint firstItem="pTw-7E-Hxc" firstAttribute="leading" secondItem="eDW-Pn-OU0" secondAttribute="leading" constant="50" id="D5C-ud-MBa"/>
+                            <constraint firstItem="aYo-QH-3x6" firstAttribute="leading" secondItem="eDW-Pn-OU0" secondAttribute="leading" constant="10" id="J27-xL-wea"/>
+                            <constraint firstItem="aYo-QH-3x6" firstAttribute="top" secondItem="pTw-7E-Hxc" secondAttribute="bottom" constant="2" id="Y1K-nQ-4aE"/>
+                            <constraint firstItem="pTw-7E-Hxc" firstAttribute="top" secondItem="eDW-Pn-OU0" secondAttribute="top" constant="140" id="pcG-o8-vWO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w8K-J8-4BP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.652173913043484" y="53.571428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="p_ji_c_1" width="47" height="63"/>
+        <image name="p_ji_e_1" width="47" height="63"/>
+        <image name="p_ji_h_1" width="47" height="63"/>
+        <image name="p_ji_n_1" width="47" height="63"/>
+        <image name="p_ji_s_1" width="47" height="63"/>
+        <image name="p_ji_w_1" width="47" height="63"/>
+        <image name="p_ms1_1" width="47" height="63"/>
+        <image name="p_ms2_1" width="47" height="63"/>
+        <image name="p_ms3_1" width="47" height="63"/>
+        <image name="p_ms4_1" width="47" height="63"/>
+        <image name="p_ms5_1" width="47" height="63"/>
+        <image name="p_ms6_1" width="47" height="63"/>
+        <image name="p_ms7_1" width="47" height="63"/>
+        <image name="p_ms8_1" width="47" height="63"/>
+        <image name="p_ms9_1" width="47" height="63"/>
+        <image name="p_no_1" width="47" height="63"/>
+        <image name="p_ps1_1" width="47" height="63"/>
+        <image name="p_ps2_1" width="47" height="63"/>
+        <image name="p_ps3_1" width="47" height="63"/>
+        <image name="p_ps4_1" width="47" height="63"/>
+        <image name="p_ps5_1" width="47" height="63"/>
+        <image name="p_ps6_1" width="47" height="63"/>
+        <image name="p_ps7_1" width="47" height="63"/>
+        <image name="p_ps8_1" width="47" height="63"/>
+        <image name="p_ps9_1" width="47" height="63"/>
+        <image name="p_ss1_1" width="47" height="63"/>
+        <image name="p_ss2_1" width="47" height="63"/>
+        <image name="p_ss3_1" width="47" height="63"/>
+        <image name="p_ss4_1" width="47" height="63"/>
+        <image name="p_ss5_1" width="47" height="63"/>
+        <image name="p_ss6_1" width="47" height="63"/>
+        <image name="p_ss7_1" width="47" height="63"/>
+        <image name="p_ss8_1" width="47" height="63"/>
+        <image name="p_ss9_1" width="47" height="63"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
